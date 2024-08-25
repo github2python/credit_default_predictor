@@ -104,7 +104,7 @@ We can see that there has been significant jump in the performance of __Decision
 
 ##Conclusion
 
-If the requests that 
+Random Forest Classifier and XG Boost have nearly same performances, I have used random forest because it ran fast on my local machine as compared to XG Boost as it is a bit heavy because of optimizing various features.
 
 ## 👉 Directions to download the repository and run the notebook 
 
