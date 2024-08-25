@@ -29,7 +29,7 @@ Incorporating machine learning into loan assessment processes can transform how 
 
 ## Metrics
 
-The output variable in our case is __discrete__. Therefore, metrics that compute the outcomes for discrete variables should be taken into consideration and the problem should be mapped under classification. Below are the metrics for the classification problem of predicting whether a person would default on a loan or not. 
+The output variable in our case is __discrete__, making this a classification problem. To evaluate the performance of our model in predicting whether a person will default on a loan, we should use classification metrics. Below are some key metrics to consider:
 
 * [__Accuracy__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html)
 * [__Precision__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html)
@@ -43,9 +43,9 @@ The output variable in our case is __discrete__. Therefore, metrics that compute
 
 In this section, we would be primarily focusing on the visualizations from the analysis and the __ML model prediction__ matrices to determine the best model for deployment. 
 
-After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a car, gender, type of loan, and most importantly whether they have defaulted on a loan or not. 
+After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a type of loan, and most importantly whether they have defaulted on a loan or not, age, montly income, debt ratio (important). 
 
-<img src = "https://github.com/suhasmaddali/Predicting-Loan-Default-Using-Machine-Learning/blob/main/images/Input%20Data.png"/>
+<img src = "https://github.com/github2python/credit_default_predictor/images/data.jpg  "/>
 
 A large portion of the loan applicants are __unaccompanied__ meaning that they are not married. There are a few child applicants along with spouse categories. There are a few other types of categories that are yet to be determined according to the dataset. 
 
