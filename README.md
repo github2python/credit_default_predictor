@@ -100,6 +100,12 @@ __Models Performance__
 
 <img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/Models_tuning_after.png  "/>
 
+We can see that there has been significant jump in the performance of __Decision Tree Classifier__ after tuning and for other two models also performance has slightly improved.
+
+##Conclusion
+
+If the requests that 
+
 ## 👉 Directions to download the repository and run the notebook 
 
 This is for the Washington Bike Demand Prediction repository. But the same steps could be followed for this repository. 
