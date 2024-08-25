@@ -86,6 +86,19 @@ I have used randomized search cv for tuning the models
 
 [__RandomizedSearchCV__](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
 
+Here are the results for all the models after tuning - 
+
+__Performance Table__
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/table_compare.jpg  "/>
+
+__Confusion Matrix__ -
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/Confusion_matrix.png  "/>
+
+__Models Performance__
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/Models_tuning_after.png  "/>
 
 ## 👉 Directions to download the repository and run the notebook 
 
