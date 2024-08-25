@@ -45,7 +45,7 @@ In this section, we would be primarily focusing on the visualizations from the a
 
 After taking a look at a few rows and columns in the dataset, there are features such as whether the loan applicant has a type of loan, and most importantly whether they have defaulted on a loan or not, age, montly income, debt ratio (important). 
 
-<img src = "https://github.com/github2python/credit_default_predictor/images/data.jpg  "/>
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/data.jpg  "/>
 
 A large portion of the loan applicants are __unaccompanied__ meaning that they are not married. There are a few child applicants along with spouse categories. There are a few other types of categories that are yet to be determined according to the dataset. 
 
