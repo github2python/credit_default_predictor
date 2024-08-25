@@ -73,6 +73,20 @@ __Confusion Matrix__ -
 
 <img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/confusion_before_tuning.png  "/>
 
+__Models Performance__
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/models_performance.png  "/>
+
+__ROC Curve__
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/ROC.png  "/>
+
+Now as you can see models are performing well but we can improve the performance by hyperparameter tuning.
+I have used randomized search cv for tuning the models
+
+[__RandomizedSearchCV__](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
+
+
 ## 👉 Directions to download the repository and run the notebook 
 
 This is for the Washington Bike Demand Prediction repository. But the same steps could be followed for this repository. 
