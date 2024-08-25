@@ -65,15 +65,13 @@ First I have used three models as shown below and compared their performance on 
 
 ## Machine Learning Models
 
-We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the machine learning models used for predicting whether a person would default on a __loan or not__. 
+We know that there are __millions of records__ in our data. Hence, it is important to use the most appropriate machine learning model that deals with __high-dimensional data__ well. Below are the results for various machine learning models used for predicting whether a person would default on a __loan or not__. 
 
-| __Machine Learning Models__| __Accuracy__| __Precision__|__Recall__|__F1-Score__| __AUC Score__|
-| :-:| :-:| :-:| :-:| :-:| :-:|
-| [__1. Logistic Regression__](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)| 64.5%| 0.64| 0.63| 0.63| 0.69|
-| [__2. Naive Bayes Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)| 50.0%| 0.50| __0.99__| 0.70| 0.64|
-| [__3. Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)| 81.0%| __0.76__| 0.84| 0.80| 0.81|
-| [__4. Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)| __86.0%__| 0.74| 0.98| __0.84__| __0.95__|
-| [__5. Deep Neural Networks__](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)| 73.0%| 0.66| 0.77| 0.71| 0.76|
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/table.jpg  "/>
+
+__Confusion Matrix__ -
+
+<img src = "https://github.com/github2python/credit_default_predictor/blob/main/images/confusion_before_tuning.png  "/>
 
 ## 👉 Directions to download the repository and run the notebook 
 
