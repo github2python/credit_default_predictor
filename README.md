@@ -152,3 +152,6 @@ npm start
 ```
 
 That's it, your application should be running now. Thanks.
+
+## References :
+Kaggle __Give Me Some Credit__ dataset
