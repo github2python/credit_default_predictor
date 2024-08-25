@@ -115,12 +115,11 @@ First, you need to clone the repository to your local machine. Open your termina
 
 ```bash
 git clone https://github.com/github2python/credit_default_predictor.git
+```bash
 
 ### 2. Clone the Repository
 
 First, you need to clone the repository to your local machine. Open your terminal or command prompt and run:
-
-```bash
 git clone https://github.com/github2python/credit_default_predictor.git
 
 That's it, you should be able to read the code now. Thanks. 
