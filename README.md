@@ -60,9 +60,7 @@ First I have used three models as shown below and compared their performance on 
 
 [__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
-
-[__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) 
-[__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html) 
+[__XG Boost Classifier__](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBClassifier)
 
 ## Machine Learning Models
 
