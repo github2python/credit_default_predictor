@@ -17,29 +17,15 @@ By analyzing key factors and historical data, banks can refine their lending pra
 
 ![](Payday-Loan.gif)
 
-## Machine Learning Analysis 
+## Use of Machine Learning
 
-__Companies__ could use machine learning to understand some of the important features and insights and also, get predictions so that they could determine whether they have to give a loan to a person or not. It would be really good if based on a given set of features, one is able to predict whether a customer would __default on a loan or not__. This could be addressed with machine learning.
+Companies can harness the power of machine learning to uncover key features and insights that drive their lending decisions. By leveraging predictive models, they can more accurately assess whether to approve or deny a loan application.
 
-## Exploratory Data Analysis (EDA)
+Imagine if, based on a set of specific features—such as financial history, income level, and credit score—a machine learning model could forecast the likelihood of a customer defaulting on a loan. This capability enables companies to make more informed lending decisions, reducing risk and improving financial outcomes.
 
-We should be performing exploratory data analysis (EDA) to understand and use various features for our prediction. Below are some key insights that were generated as a result of exploratory data analysis (EDA). 
+With machine learning, businesses can analyze vast amounts of data to identify patterns and trends, ultimately predicting customer behavior with greater precision. This not only enhances their decision-making process but also supports more responsible and strategic lending practices.
 
-* There are a large number of people in our data that do not have a __partner__. 
-* There is a __large portion__ of our data that contains missing values.
-* We find that the __number of people__ who defaulted on a loan are __significantly__ lower than the number of people who did not default on a loan. Therefore, __class balancing__ should be done before giving the data to the __ML models__ for prediction. 
-* Based on the salary amounts, it could be seen that a large portion of people has salaries ranging from about __$1,00,000 - $1,40,000__. There are also a few people who make about __$8,00,000__ but they are outliers in the data. 
-* It could also be seen that a large number of people have taken a loan or credit of about __$2,50,000__. There are very few people (outliers) who have taken a loan of about __$20,00,000__. 
-* We have data that contains a lot of __missing values__. Therefore, we can either take into account the __imputation methods__ or __remove__ the features that contain more than __80 percent__ as missing values.  
-
-## Sampling Methods
-
-Since we are dealing with data that is not balanced, it is important to perform the balancing, especially for the minority class which in our case is the possibility that a person might default on a loan. We use various sampling techniques such as __SMOTE__ and __Random sampling__ to get the best outputs from the machine learning models. 
-
-* [__RandomOverSampler__](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.RandomOverSampler.html)
-* [__TomekLinks__](https://imbalanced-learn.org/stable/references/generated/imblearn.under_sampling.TomekLinks.html)
-* [__SMOTE__](https://imbalanced-learn.org/stable/references/generated/imblearn.over_sampling.SMOTE.html)
-* [__NearMiss__](https://imbalanced-learn.org/dev/references/generated/imblearn.under_sampling.NearMiss.html)
+Incorporating machine learning into loan assessment processes can transform how companies evaluate risk, offering a smarter, data-driven approach to managing financial uncertainty.
 
 ## Metrics
 
