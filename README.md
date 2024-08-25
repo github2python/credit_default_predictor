@@ -56,6 +56,7 @@ There were many missing field in many columns mostly in dependents column. There
 Since this is a __binary classification task__, metrics such as precision, recall, f1-score, and accuracy can be taken into consideration. Various plots that indicate the performance of the model can be plotted such as confusion matrix plots and AUC curves. Let us look at how the models are performing in the test data. 
 
 First I have used three models as shown below and compared their performance on various parameters as stated above.
+
 [__Decision Tree Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html) 
 
 [__Random Forest Classifier__](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
