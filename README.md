@@ -115,10 +115,40 @@ First, you need to clone the repository to your local machine. Open your termina
 
 ```bash
 git clone https://github.com/github2python/credit_default_predictor.git
+```
 
-### 2. Clone the Repository
+### 2. Change the url
 
-First, you need to clone the repository to your local machine. Open your terminal or command prompt and run:
-git clone https://github.com/github2python/credit_default_predictor.git
+You need to specify your local host url in credit_score.js present in src->components.
 
-That's it, you should be able to read the code now. Thanks. 
+### Setting up virtual environment
+Execute following
+```bash
+python -m venv 'name of your environment'
+'name of your environment'\Scripts\Activate
+```
+
+### 3. Installing frontend packages
+
+ Navigate to frontend folder from root directory and execute -
+ ```bash
+cd frontend
+npm install
+```
+### 4. Installing backend packages
+ In your root directory execute 
+ ```bash
+ pip install -r requirements.txt
+```
+
+### 5. In terminal from root directory run
+```bash
+python app.py
+```
+
+### 6. Navigate to frontend directory and run 
+```bash
+npm start
+```
+
+That's it, your application should be running now. Thanks.
